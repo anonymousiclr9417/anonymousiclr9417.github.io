@@ -7,6 +7,23 @@
 .resynthesis-table thead tr:nth-of-type(1) th:nth-child(5), thead tr:nth-of-type(2) th:nth-child(8), .resynthesis-table td:nth-child(10) {
   padding-left: 40px;
 }
+.resynthesis-table audio {
+    width: 100px;
+}
+
+.articulatory-table th, .articulatory-table td {
+    vertical-align: middle;
+    text-align: center;
+}
+.articulatory-table th:first-child, .articulatory-table td:first-child {
+    min-width: 100px;
+}
+.articulatory-table audio {
+    width: 100px;
+}
+.articulatory-table p {
+    margin-bottom: 0px;
+}
 
 body {
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
